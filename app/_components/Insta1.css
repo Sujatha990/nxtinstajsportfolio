@@ -1,0 +1,140 @@
+
+.image{
+    margin-top: 200px;
+    border: solid;
+   border-radius: 100px;
+   height: 200px;
+   width: 200px;
+   margin-left: 150px;
+}
+.name{
+    font-size: 40px;
+    margin-left: -500px;
+    margin-top: -200px;
+}
+.button{
+    margin-left: 300px;
+    margin-top: -50px;
+    gap: 10px;
+    font-weight: bold;
+
+
+}
+.li{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -10px;
+    padding: 80px;
+    gap: 50px;
+    text-align: center;
+    text-decoration: black;
+    font-weight: bold;
+}
+.Description{
+    margin-left: 500px;
+    padding-top: -50px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.button1{
+    padding-left: -1000px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .name{
+        margin-left: 300px;
+        margin-top: -150px;
+
+    }
+    .button{
+        display: flex;
+        margin-left: 700px;
+        
+
+    }
+    .button1{
+        display: flex;
+        margin-left: 200px;
+    }
+    .Description{
+        width: 500px;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+   
+    .button{
+        display: flex;
+        margin-left: 600px;
+        margin-top: -50px;
+    }
+    .button1{
+        display: flex;
+        margin-left: 200px;
+    }
+    .li{
+        margin-left: 300px;
+    }
+    .Description{
+        margin-left: 400px;
+        width: 400px;
+    }
+   .image{
+    margin-left: 50px;
+   }
+}
+@media screen and (min-width: 200px) and (max-width: 300px) {
+    .name{
+        margin-left: 300px;
+    }
+    .button{
+        display: flex;
+        margin-left: 530px;
+        margin-top: -50px;
+    }
+    .li{
+        margin-left: 250px;
+    }
+    .image{
+        margin-left: 20px;
+    }
+    .button1{
+        display: flex;
+        margin-left: 150px;
+    }
+    .Description{
+        margin-left: 300px;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+.name{
+    margin-left: 200px;
+}
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .name{
+        margin-left:-80px;
+    }
+    .button{
+        margin-left: 620px;
+    }
+    }
+    @media screen and (min-width: 1010px) and (max-width: 1100px) {
+        .name{
+            margin-left: -120px;
+        }
+        .button{
+            margin-left: 550px;
+        }
+    }
+    @media screen and (min-width: 301px) and (max-width: 599px) {
+        .name{
+            margin-left: 350px;
+        }
+    }
